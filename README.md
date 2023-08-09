@@ -1,8 +1,8 @@
-# GCDP: Official PyTorch Implementation (ICCV 2023)
+# Gaussian-Categorical Diffusion Process: Official PyTorch Implementation (ICCV 2023)
 
-This is the official PyTorch implementation of the paper: Learning to Generate Semantic Layouts for Higher Text-Image Correspondence in Text-to-Image Synthesis.
+This is the official PyTorch implementation of the paper: __Learning to Generate Semantic Layouts for Higher Text-Image Correspondence in Text-to-Image Synthesis.__
 
-> **GCDP**: **G**aussian-**C**ategorical **D**iffusion **P**rocess
+> **GCDP** stands for **G**aussian-**C**ategorical **D**iffusion **P**rocess
 
 <p align="center">
   <img width="90%" src="docs/gcdp.png">
