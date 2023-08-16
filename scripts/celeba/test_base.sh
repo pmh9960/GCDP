@@ -6,6 +6,6 @@ python test.py --model_type=base_128x128 \
     --test_batch_size=4 \
     --dataset celeba \
     --num_classes 19 \
-    --save_path=results/sample.png \
+    --save_path=results/celeba/base.png \
     --test_captions "The woman wears earrings. She has wavy hair. She is attractive." \
     ${@:1}

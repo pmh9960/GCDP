@@ -5,6 +5,7 @@ python test.py --model_type=base_128x256 \
     --end_sample_idx=4 \
     --test_batch_size=4 \
     --dataset cityscapes \
-    --save_path=results/sample.png \
+    --num_classes 20 \
+    --save_path=results/cityscapes/base.png \
     --test_captions "An image of an urban street view with Buildings, Fences, Roads, People, Skies, Traffic signs, Poles, Vegetations, Sidewalks and Cars." \
     ${@:1}

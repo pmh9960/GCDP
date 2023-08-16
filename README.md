@@ -20,6 +20,7 @@ This is the official PyTorch implementation of the paper: __Learning to Generate
 
 ## Updates
 
+- [16/08/2023] **Pretrained models** have been released!
 - [30/07/2023] Code and [project page](https://pmh9960.github.io/research/GCDP/) is open to the public.
 
 # Gaussian-categorical Diffusion Process
@@ -85,22 +86,21 @@ bash scripts/celeba/train_base_128x128.sh --root /path/to/data
 # Testing GCDP
 
 You can generate text-conditioned image-layout pairs leveraging pre-trained GCDP models.
-Please fill in the path to the model checkpoints and validation directories in the [`scripts/celeba/test_base.sh`](scripts/celeba/test_base.sh) file.
+Please fill in the path to the model checkpoints and validation directories in the [`scripts/celeba/test_base.sh`](scripts/celeba/test_base.sh) and [`scripts/celeba/test_sr.sh`](scripts/celeba/test_sr.sh) file.
 
 ```
-bash scripts/celeba/test_base.sh --checkpoint_path /path/to/checkpoint
+bash scripts/celeba/test_base.sh --checkpoint_path /path/to/base/checkpoint
+```
+
+```
+bash scripts/celeba/test_sr.sh --checkpoint_path /path/to/sr/checkpoint
 ```
 
 ## Pretrained Models
 
-Checkpoints for GCDP models are available in the links below.
+Checkpoints for GCDP models are available in [here](https://davian-lab.quickconnect.to/d/s/up2Ba68Ons2VJQ3M4pFVR84HlJ0pdTNc/l4JqQbYdrIyoFYlub2Pwb-zH8f-wuL4v-LLvguCrSrAo).
 
-|        GCDP        |    Base (128)     |     SR (256)      |
-| :----------------: | :---------------: | :---------------: |
-| MMCelebA-HQ (25%)  | (will be updated) | (will be updated) |
-| MMCelebA-HQ (50%)  | (will be updated) | (will be updated) |
-| MMCelebA-HQ (100%) | (will be updated) | (will be updated) |
-|     Cityscapes     | (will be updated) | (will be updated) |
+- password: GCDP
 
 # Citation
 
