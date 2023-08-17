@@ -13,14 +13,14 @@ This is the official PyTorch implementation of the paper: __Learning to Generate
 > KAIST  
 > In ICCV 2023. (\* indicate equal contribution)
 
-> Paper: (will be updated)  
+> Paper: https://arxiv.org/abs/2308.08157  
 > Project page: https://pmh9960.github.io/research/GCDP/
 
 > **Abstract:** _Existing text-to-image generation approaches have set high standards for photorealism and text-image correspondence, largely benefiting from web-scale text-image datasets, which can include up to 5 billion pairs. However, text-to-image generation models trained on domain-specific datasets, such as urban scenes, medical images, and faces, still suffer from low text-image correspondence due to the lack of text-image pairs. Additionally, collecting billions of text-image pairs for a specific domain can be time-consuming and costly. Thus, ensuring high text-image correspondence without relying on web-scale text-image datasets remains a challenging task. In this paper, we present a novel approach for enhancing text-image correspondence by leveraging available semantic layouts. Specifically, we propose a Gaussian-categorical diffusion process that simultaneously generates both images and corresponding layout pairs. Our experiments reveal that we can guide text-to-image generation models to be aware of the semantics of different image regions, by training the model to generate semantic labels for each pixel. We demonstrate that our approach achieves higher text-image correspondence compared to existing text-to-image generation approaches in the Multi-Modal CelebA-HQ and the Cityscapes dataset, where text-image pairs are scarce._
 
 ## Updates
 
-- [16/08/2023] **Pretrained models** have been released!
+- [16/08/2023] Pretrained models have been released!
 - [30/07/2023] Code and [project page](https://pmh9960.github.io/research/GCDP/) is open to the public.
 
 # Gaussian-categorical Diffusion Process
