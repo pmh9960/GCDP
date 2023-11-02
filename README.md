@@ -105,10 +105,11 @@ Checkpoints for GCDP models are available in [here](https://davian-lab.quickconn
 # Citation
 
 ```
-@article{park2023learning,
+@inproceedings{park2023learning,
   title={Learning to Generate Semantic Layouts for Higher Text-Image Correspondence in Text-to-Image Synthesis},
   author={Park, Minho and Yun, Jooyeol and Choi, Seunghwan and Choo, Jaegul},
-  journal={arXiv preprint arXiv:2308.08157},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+  pages={7591--7600},
   year={2023}
 }
 ```
